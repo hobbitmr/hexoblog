@@ -57,5 +57,19 @@ cd HexoEditor
 npm install
 npm start
  ```
+为了更加方便启动，我们可以制作一个bat脚本。来快速启动他
+
+start.bat
+```
+@echo off
+cd /d %~dp0
+npm start
+```
+将这个脚本放在HexoEditor的目录下面。然后创建快捷方式，修改快捷方式的图标
+![](https://i.loli.net/2018/11/27/5bfcfbcc55c4b.png)
+这样子就打工告成。。。
+![](https://i.loli.net/2018/11/27/5bfcfbcc2bb7a.png)
+
+
 
 
