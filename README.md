@@ -33,5 +33,28 @@ npm install hexo -g
     git clone git@github.com:hobbitmr/hexoblog.git
     npm install
     ```
+#### 安装编辑器 HexoEditor
+ [github地址](https://github.com/zhuzhuyule/HexoEditor)
+ 安装步骤
+ ```
+ //if use Windows:
+npm config set prefix "C:/Program Files/nodejs/npm_global"
+npm config set cache "C:/Program Files/nodejs/npm_cache" 
+
+//if use Linux\Mac:
+npm config set prefix "~/nodejs/npm_global"
+npm config set cache "~/nodejs/npm_cache" 
+
+//If In China, China, China, you can set mirror to speed up !
+//如果你为了加快速度用了淘宝源，使用安装完成之后，尽量换回原来的源。淘宝源缺了一些东西。会导致你后面有很多莫名其妙的错误
+npm config set registry "https://registry.npm.taobao.org/"
+//切换原来的源
+npm config set registry https://registry.npmjs.org
+
+git clone https://github.com/zhuzhuyule/HexoEditor.git
+cd HexoEditor
+npm install
+npm start
+ ```
 
 
