@@ -7,6 +7,7 @@ tags:
   - Testing2
 date: 2018-11-26 16:48:00
 ---
+![Alt text](/images/headicon.jpeg)
 测试·每次更改完 NexT 文档 都要手动部署到 GitHub Pages，重复的次数多了就显得很麻烦，
 出错的几率也会变大。文档源码放置在 master 分支，
 最终部署文件在 gh-pages 分支。当在 master 分支更改某些内容之后，通过运行 gulp dist 来生成最终部署的 HTML 文件到 dist 目录，
