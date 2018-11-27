@@ -32,6 +32,7 @@ npm install hexo -g
     ```
     git clone git@github.com:hobbitmr/hexoblog.git
     npm install
+    hexo g && hexo s
     ```
 #### 安装编辑器 HexoEditor
  [github地址](https://github.com/zhuzhuyule/HexoEditor)
